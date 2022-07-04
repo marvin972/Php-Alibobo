@@ -1,5 +1,12 @@
 <link rel="stylesheet" href="/assets/css/style.css">
 <?php
+
+require_once './functions/autoLoad.php';
+autoLoad("*.php");
+
+
+echo $_SERVER["SERVER_SOFTWARE"];
+
 // Définir le fuseau horaire dans laquel le serveur se trouve 
 date_default_timezone_set('Europe/Paris');
 
