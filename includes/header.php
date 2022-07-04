@@ -16,7 +16,7 @@
     <ul>
         <li><a href="index.php?page=accueil">Accueil</a></li>
         <li><a href="index.php?page=articles">Articles</a></li>
-        <li><a href="index.php?page=inscription">Incription</a></li>
+        <li><a href="index.php?page=inscription">Inscription</a></li>
         <li><a href="index.php?page=login">Login</a></li>
     </ul>
 </nav>
