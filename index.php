@@ -14,7 +14,7 @@ date_default_timezone_set('Europe/Paris');
 include renvoie un avertisement simple en cas d'erreur
 require renvoie une erreur fatale et arrête l'éxécution du scripte */
 
-include './includes/header.php';
-include './includes/main.php';
-include './includes/footer.php';
+require_once './includes/header.php';
+require_once './includes/main.php';
+require_once './includes/footer.php';
 
